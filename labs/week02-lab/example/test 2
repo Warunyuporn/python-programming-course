@@ -1,0 +1,16 @@
+print("4. BMI Calculator:")
+print("   - Ask for weight (kg) and height (m)")
+print("   - Calculate: BMI = weight / (height ** 2)")
+print()
+
+# input
+radius = float(input("Enter radius: "))
+
+# process
+pi = 3.14159
+area = pi * (radius ** 2)
+circumference = 2 * pi * radius
+
+# output
+print("Area:", area)
+print("Circumference:", circumference)
