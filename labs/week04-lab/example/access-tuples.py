@@ -1,12 +1,12 @@
 colors = ("red", "green", "blue", "yellow", "purple")
 
 # Indexing (same as lists)
-print(f"First color: {colors[0]}")      # red
-print(f"Last color: {colors[-1]}")      # purple
+print(f"First color: {colors[0]}")      # red คือตัวเเรกที่โค้คต้องการ
+print(f"Last color: {colors[-1]}")      # purple คือตัวสุดท้ายที่โค้คต้องการ
 
 # Slicing (same as lists)
-print(f"First 3: {colors[0:3]}")        # ('red', 'green', 'blue')
-print(f"Last 2: {colors[-2:]}")         # ('yellow', 'purple')
+print(f"First 3: {colors[0:3]}")        # ('red', 'green', 'blue') คือสีที่เราต้องการ
+print(f"Last 2: {colors[-2:]}")         # ('yellow', 'purple') ถ้า-2คือนับท้อยหลังเเละคำตอบก็อยู่ในวงเเล็บ
 print(f"Every 2nd: {colors[::2]}")      # ('red', 'blue', 'purple')
 
 # Tuple unpacking
