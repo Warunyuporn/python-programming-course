@@ -19,7 +19,7 @@ print(f"Reverse list: {fruits[::-1]}")      # ['kiwi', 'grape', 'orange', 'banan
 # Changing single elements
 fruits = ["apple", "banana", "orange"]
 fruits[1] = "mango"
-print(fruits)  # ['apple', 'mango', 'orange']
+print(fruits)  # ['apple', 'mango', 'orange'] mangoมาเเทนที่ของbanana
 
 # Changing multiple elements
 fruits[0:2] = ["pear", "cherry"]
