@@ -1,0 +1,51 @@
+def calculate_rectangle_area(base, height):
+    """Calculates and displays triangle area"""
+    area = 0.5 * height * base
+    print(f"Triangle with height {height} and width {base}")
+    print(f"Area = {height} × {base} = {area}")
+    print()
+
+print("Calculating triangle areas:")
+calculate_rectangle_area(5, 3)
+calculate_rectangle_area(10, 7)
+
+# จากตัวอย่าง ให้สร้าง function สำหรับคำนวณพท.วงกลม
+
+def calculate_circle_area(radius):
+    """Calculates and displays circle area"""
+    area = math.py * radius **2
+    print(f"Circle with radius {radius}")
+    print(f"Area = π × {radius}² = {area:.2f}")
+    print()
+
+print("Calculating circle areas:")
+calculate_rectangle_area(5)
+calculate_rectangle_area(10)
+
+# จากตัวอย่างด้านบน ให้เขียน funtion ชื่อ spuare_root(n)
+def square_root(n):
+    return n ** 0.5  
+
+print("Using return values in expressions:")
+result = multiply(4, 5) + square_root(9)
+print(f"multiply(4, 5) + square_root(9) = {multiply(4, 5)} + {square_root(9)} = {result}")
+print()
+
+""" เขียน function ชื่อ create_user_profile ที่มีคุณสมบัติดังนี้:
+
+รับ parameters: username (จำเป็น), age (ค่าเริ่มต้น 18), premium (ค่าเริ่มต้น False)
+return string ที่จัดรูปแบบข้อมูลผู้ใช้
+รูปแบบ: "[username] (age: [age]) - [Premium User / Standard User]" [โจทย์นี้เป็นการฝึกเรื่อง Function + Default Parameters + Return Value โดยให้เราสร้างฟังก์ชันสำหรับสร้างข้อมูล]
+
+"""
+
+def create_user_profile(username, age=18, premium=False):
+    # Your Problem 3 solution
+    if premium == True :
+        return f"{username} (age: {age}) - Premium User"
+    else
+        return f"{username} (age: {age}) - Standrd User"
+    
+    print(create_user_profile("Warunyuporn" , 19))
+    print(create_user_profile("Mana"))
+    print(create_user_profile("Piti" , 23, True))
