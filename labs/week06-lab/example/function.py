@@ -16,7 +16,7 @@ def say_hello():
 # Calling the function
 print("Calling say_hello():")
 say_hello()
-print()
+print()  ตัวอย่างที่1 (7/8)
 
 # Example 2: Function that performs a task
 def draw_separator():
@@ -26,7 +26,7 @@ def draw_separator():
 draw_separator()
 print("This is between separators")
 draw_separator()
-print()
+print()  ตัวอย่างที่2 (7/8)
 
 # =============================================================================
 # PART 2: FUNCTIONS WITH PARAMETERS
@@ -77,17 +77,17 @@ print("\n=== PART 3: FUNCTIONS WITH RETURN VALUES ===")
 def add_numbers(a, b):
     """Adds two numbers and returns the result"""
     result = a + b
-    return result
+    return result  คือตัวแปรที่ใช้เก็บผลลัพธ์จากการคำนวณ เพื่อให้สามารถนำไปแสดงผลหรือใช้งานต่อได้
 
 print("Using functions that return values:")
-sum1 = add_numbers(5, 3)
-sum2 = add_numbers(10, 7)
+sum1 = add_numbers(5, 3)  =8
+sum2 = add_numbers(10, 7)  =17
 print(f"5 + 3 = {sum1}")
 print(f"10 + 7 = {sum2}")
-print(f"Sum of both results: {sum1 + sum2}")
+print(f"Sum of both results: {sum1 + sum2}") =25
 print()
 
-# Example 2: Function returning multiple values
+# Example 2: Function returning multiple values คือฟังก์ชันที่คืนค่ากลับ (return) มากกว่า 1 ค่า โดยคืนทั้ง พื้นที่ และ เส้นรอบวง ของวงกลม
 def get_circle_info(radius):
     """Calculates circle area and circumference"""
     pi = 3.14159
@@ -110,7 +110,7 @@ def multiply(x, y):
 
 def square(n):
     """Returns the square of a number"""
-    return n * n
+    return n * n  squareแปลว่ายกกำลัง2
 
 print("Using return values in expressions:")
 result = multiply(4, 5) + square(3)
@@ -118,7 +118,7 @@ print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 print()
 
 # =============================================================================
-# PART 4: DEFAULT PARAMETERS
+# PART 4: DEFAULT PARAMETERS  โค้ดนี้เป็นตัวอย่างเรื่อง Default Parameters (พารามิเตอร์ค่าเริ่มต้น) ใน Python
 # =============================================================================
 print("\n=== PART 4: DEFAULT PARAMETERS ===")
 
