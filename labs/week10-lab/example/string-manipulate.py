@@ -147,9 +147,12 @@ print(f"id of str3 is {id(str3)}")  # Same ID as current str1
 print("\n=== ESCAPE CHARACTERS ===")
 print("New line example:")
 print("Line 1\nLine 2")
+## = Line 1
+## = Line 2
 
 print("Tab example:")
 print("Column1\tColumn2\tColumn3")
+## =Column1 Column2 Column3
 
 print("Backslash example:")
 print("Path: C:\\Users\\Python")
@@ -202,21 +205,21 @@ text = "welcome to the world of python"
 
 # Case methods
 print(f"Original: {text}")
-print(f"Upper: {text.upper()}")
+print(f"Upper: {text.upper()}") 
 print(f"Lower: {text.lower()}")
 print(f"Title: {text.title()}")
-print(f"Capitalize: {text.capitalize()}")
+print(f"Capitalize: {text.capitalize()}") 
 
 # Search methods
 print(f"Find 'world': {text.find('world')}")
 print(f"Count 'o': {text.count('o')}")
 print(f"Starts with 'welcome': {text.startswith('welcome')}")
-print(f"Ends with 'python': {text.endswith('python')}")
+print(f"Ends with 'python': {text.endswith('python')}") ## text จบด้วย python มั๊ย
 
 # Modification methods
 print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
-print(f"Split into words: {words}")
+words = text.split() ## แปลง list ['Welcome','to','the', 'wold','fo','java']
+print(f"Split into words: {words}") 
 print(f"Join with '-': {'-'.join(words)}")
 
 # Validation methods

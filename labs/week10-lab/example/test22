@@ -1,0 +1,39 @@
+# ===========================
+# 7. ITERATING AND COUNTING
+# ===========================
+# เขียนโปรแกรม นับจำนวนอักขระที่สนใจในข้อความที่กำหนดโดยผู้ใช้งาน
+# 1.รับข้อความที่กำหนดให้ผู้ใช้ (text)
+# 2.รับอักขระที่สนใจจากผู้ใช้งาน (char)
+# 3.แสดงผลการนับอักขระที่สนใจในข้อความออกทางด้านหน้า
+ 
+#ตัวอย่างหน้าจอ
+#Insert the text: Kasetsart Sriracha
+#Character to find: r
+#3 letters 'r' fond in 'Kasetsart Shiracha'
+print("\n=== ITERATING THROUGH STRING ===")
+count = 0
+text = input("Insert the text: ")
+char = input("Character to find; ")
+for letter in text:
+    if letter == char:
+        count += 1
+print(f"{count} letters '{char}' found in '{text}'")
+
+# เขียนโปรแกรมตรวจสอบความแข็งแรงของ password
+# password ที่แข็งแรงคือ ยาวมากกว่า 8 ตัว และผสมกันระหว่างตัวเลข ตัวอักษร และอักขระพิเศษ
+
+# ตัวอย่างหน้าจอ
+# Insert your password: Teat123
+# Your password is not strong:
+
+# Insert your passsword: Test234
+# Your pasword is strong:
+
+password = input("Enter Your Passwors:")
+lenght = len(password)
+chack = password.isalnum()
+
+if lenght > 8 and check == False:
+    print("Your password is not strong")
+else:
+    print("Your password is not strong:")
